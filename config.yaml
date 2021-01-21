@@ -1,5 +1,5 @@
 settings:
-  title: 'Status Page'
+  title: 'Rotaract Club of University of Moratuwa Status Page'
   url: 'https://status-page.eidam.dev' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
@@ -33,5 +33,41 @@ monitors:
   - id: rotaractmora-linkR
     name: LinkR Platform
     url: 'https://linkr.rotaractmora.org/'
+    method: GET
+    expectStatus: 200
+
+  - id: rotaractmora-mun
+    name: Rotaract Mora MUN
+    url: 'http://mun.rotaractmora.org/'
+    method: GET
+    expectStatus: 200
+
+  - id: rotaractmora-manusath
+    name: Manusath Handa E-Library
+    url: 'https://manusathhanda.rotaractmora.org/'
+    method: GET
+    expectStatus: 200
+
+  - id: rotaractmora-nena-aruna
+    name: Nena Aruna
+    url: 'https://nenaaruna.rotaractmora.org/'
+    method: GET
+    expectStatus: 200
+
+  - id: rotaractmora-indiretto
+    name: Indiretto
+    url: 'https://indiretto.rotaractmora.org/'
+    method: GET
+    expectStatus: 200
+  
+  - id: rotaractmora-rur
+    name: Are You Ready Platform
+    url: 'https://rur.rotaract.social/
+    method: GET
+    expectStatus: 200
+
+  - id: rotaract.social
+    name: Social Links
+    url: 'https://rotaract.social/'
     method: GET
     expectStatus: 200
