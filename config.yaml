@@ -48,6 +48,12 @@ monitors:
     method: GET
     expectStatus: 200
 
+  - id: rotaractmora-manusath-contrib
+    name: Manusath Handa | Contributors Portal
+    url:  'http://portal.manusathhanda.rotaractmora.org'
+    method: GET
+    expectStatus: 200
+
   - id: rotaractmora-nena-aruna
     name: Nena Aruna
     url: 'https://nenaaruna.rotaractmora.org/'
@@ -62,7 +68,7 @@ monitors:
   
   - id: rotaractmora-rur
     name: Are You Ready Platform
-    url: 'https://rur.rotaract.social/
+    url: 'https://rur.rotaract.social/'
     method: GET
     expectStatus: 200
 
