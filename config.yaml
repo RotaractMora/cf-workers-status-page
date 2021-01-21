@@ -48,7 +48,7 @@ monitors:
     method: GET
     expectStatus: 200
 
-  - id: rotaractmora-manusath-contrib
+  - id: rotaractmora-manusath-contrib-portal
     name: Manusath Handa | Contributors Portal
     url:  'http://portal.manusathhanda.rotaractmora.org'
     method: GET
@@ -72,7 +72,7 @@ monitors:
     method: GET
     expectStatus: 200
 
-  - id: rotaract.social
+  - id: rotaract.social-platform
     name: Social Links
     url: 'https://rotaract.social/'
     method: GET
