@@ -68,7 +68,7 @@ export default function Index({ config, kvMonitors, kvMonitorsLastUpdate }) {
         </script>
       </Head>
       <div className="container mx-auto px-4">
-        <MonitorStatusHeader kvMonitorsLastUpdate={kvMonitorsLastUpdate} />
+      <a href="https://status.rotaract.social"><MonitorStatusHeader kvMonitorsLastUpdate={kvMonitorsLastUpdate} /></a>
       </div>
     </div>
   )
