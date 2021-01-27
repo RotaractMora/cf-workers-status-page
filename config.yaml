@@ -27,6 +27,7 @@ monitors:
     name: rotaractmora.org
     description: 'Official Website of RotaractMora'
     url: 'https://www.rotaractmora.org'
+    followRedirect: true
     method: GET
     expectStatus: 200
 
