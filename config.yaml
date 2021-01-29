@@ -37,6 +37,13 @@ monitors:
     method: GET
     expectStatus: 200
 
+  - id: rotaractmora-manusath-contrib-0
+    name: Manusath Handa | Contributors Portal
+    url:  'https://portal.manusathhanda.rotaractmora.org'
+    followRedirect: true
+    method: GET
+    expectStatus: 200
+
   - id: rotaractmora-mun
     name: Rotaract Mora MUN
     url: 'http://mun.rotaractmora.org/'
@@ -46,13 +53,6 @@ monitors:
   - id: rotaractmora-manusath
     name: Manusath Handa E-Library
     url: 'https://manusathhanda.rotaractmora.org/'
-    method: GET
-    expectStatus: 200
-
-  - id: rotaractmora-manusath-contrib-0
-    name: Manusath Handa | Contributors Portal
-    url:  'https://portal.manusathhanda.rotaractmora.org'
-    followRedirect: true
     method: GET
     expectStatus: 200
 
@@ -90,5 +90,17 @@ monitors:
   - id: rotaractmora-scholar
     name: Scholar
     url: 'https://scholar.rotaractmora.org/'
+    method: GET
+    expectStatus: 200
+
+  - id: cast4
+    name: CAST4 Website
+    url: 'http://cast4.rotaractmora.org/'
+    method: GET
+    expectStatus: 200
+
+  - id: datastorm
+    name: DataStorm Website
+    url: 'https://data-storm.web.app'
     method: GET
     expectStatus: 200
