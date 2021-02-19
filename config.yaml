@@ -101,6 +101,6 @@ monitors:
 
   - id: datastorm
     name: DataStorm Website
-    url: 'https://data-storm.web.app'
+    url: 'https://datastorm.rotaract.social'
     method: GET
     expectStatus: 200
