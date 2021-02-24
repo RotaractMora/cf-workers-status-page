@@ -103,4 +103,5 @@ monitors:
     name: DataStorm Website
     url: 'https://datastorm.rotaract.social'
     method: GET
+    followRedirect: true
     expectStatus: 200
