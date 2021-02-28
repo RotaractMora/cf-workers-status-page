@@ -93,7 +93,7 @@ monitors:
     method: GET
     expectStatus: 200
 
-  - id: cast4
+  - id: cast4-web
     name: CAST4 Website
     url: 'http://cast4.rotaractmora.org/'
     method: GET
